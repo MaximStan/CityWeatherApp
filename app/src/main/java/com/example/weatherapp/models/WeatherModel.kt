@@ -11,5 +11,4 @@ data class WeatherModel(
     val hours: String,
     val avgHumidity: String,
     val wind: String,
-
 )

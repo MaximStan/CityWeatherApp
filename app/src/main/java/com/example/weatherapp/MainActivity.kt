@@ -26,6 +26,7 @@ import com.example.weatherapp.screens.WeatherSplashScreen
 import com.example.weatherapp.screens.WeatherTabLayout
 import com.example.weatherapp.ui.DialogSearch
 
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -3,7 +3,6 @@ package com.example.weatherapp.api_data
 import com.example.weatherapp.models.WeatherModel
 import org.json.JSONObject
 
-
  fun getWeatherDaily(response: String): List<WeatherModel> {
 
     if (response.isEmpty()) return listOf()

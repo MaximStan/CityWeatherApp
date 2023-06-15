@@ -7,7 +7,6 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
-
 private val DarkColorPalette = darkColors(
     background = DeepBlue,
     surface = DarkBlue,
@@ -21,7 +20,6 @@ private val LightColorPalette = lightColors(
     onSurface = Color.White,
     onSecondary = Black,
 )
-
 
 @Composable
 fun WeatherAppTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {

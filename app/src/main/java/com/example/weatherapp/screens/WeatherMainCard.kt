@@ -35,8 +35,7 @@ fun WeatherMainCard(
 ) {
 
     Column(
-        modifier = Modifier
-            .background(color = MaterialTheme.colors.background)
+        modifier = Modifier.background(color = MaterialTheme.colors.background)
 
     ) {
         Card(
@@ -102,20 +101,20 @@ fun WeatherMainCard(
                 Row() {
                     Image(painter = painterResource(id = R.drawable.ic_water_drop_24),
                         contentDescription = null,
-                        modifier = Modifier.padding(vertical = 8.dp)
+                        modifier = Modifier.padding(vertical = 10.dp)
                     )
 
                     Text(text = currentDay.value.avgHumidity + " %",
                         style = TextStyle(fontSize = 15.sp),
                         color = MaterialTheme.colors.onSurface,
-                        modifier = Modifier.padding(vertical = 8.dp)
+                        modifier = Modifier.padding(vertical = 10.dp)
                     )
 
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
 
                     Image(painter = painterResource(id = R.drawable.wind_svgrepo_com),
                         contentDescription = null,
-                        modifier = Modifier.padding(vertical = 8.dp).size(23.dp)
+                        modifier = Modifier.padding(vertical = 10.dp).size(23.dp)
                     )
 
                     Spacer(modifier = Modifier.padding(horizontal = 3.dp))
@@ -123,7 +122,7 @@ fun WeatherMainCard(
                     Text(text = currentDay.value.wind + " km/h",
                         style = TextStyle(fontSize = 15.sp),
                         color = MaterialTheme.colors.onSurface,
-                        modifier = Modifier.padding(vertical = 6.dp,)
+                        modifier = Modifier.padding(vertical = 10.dp,)
                     )
                 }
 

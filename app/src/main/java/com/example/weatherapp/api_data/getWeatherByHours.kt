@@ -7,6 +7,7 @@ import org.json.JSONObject
  fun getWeatherByHours(hours: String): List<WeatherModel> {
 
     if (hours.isEmpty()) return listOf()
+
     val hoursArray = JSONArray(hours)
     val list = ArrayList<WeatherModel>()
     for (i in 0 until hoursArray.length()) {

@@ -22,5 +22,4 @@ fun WeatherMainList(list: List<WeatherModel>, currentDay: MutableState<WeatherMo
         }
 
     }
-
 }

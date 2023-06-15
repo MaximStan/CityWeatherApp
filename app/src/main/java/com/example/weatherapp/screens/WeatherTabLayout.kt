@@ -73,8 +73,6 @@ fun WeatherTabLayout(
             count = tabsList.size,
             state = pagerState,
             modifier = Modifier.weight(1.0f)
-
-
         ) { index ->
             val list = when(index){
                 0 -> getWeatherByHours(currentDay.value.hours)
