@@ -26,6 +26,7 @@ import com.example.weatherapp.screens.WeatherMainCard
 import com.example.weatherapp.ui.theme.DarkBlue
 import com.example.weatherapp.ui.theme.Shapes
 
+
 @Composable
 fun WeatherListItem(weatherItem: WeatherModel, currentDay: MutableState<WeatherModel>) {
 

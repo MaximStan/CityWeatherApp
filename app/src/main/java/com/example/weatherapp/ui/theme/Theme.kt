@@ -21,6 +21,7 @@ private val LightColorPalette = lightColors(
     onSecondary = Black,
 )
 
+
 @Composable
 fun WeatherAppTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
     val colors = if (darkTheme) {

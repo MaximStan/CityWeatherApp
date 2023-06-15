@@ -4,6 +4,7 @@ import com.example.weatherapp.models.WeatherModel
 import org.json.JSONArray
 import org.json.JSONObject
 
+
  fun getWeatherByHours(hours: String): List<WeatherModel> {
 
     if (hours.isEmpty()) return listOf()

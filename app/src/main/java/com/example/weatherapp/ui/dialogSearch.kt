@@ -16,7 +16,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.weatherapp.ui.theme.DeepBlue
 
-
 @Composable
 fun DialogSearch(
     showSearchDialog: MutableState<Boolean>,

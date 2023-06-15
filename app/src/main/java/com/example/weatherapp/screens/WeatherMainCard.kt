@@ -26,6 +26,7 @@ import com.google.accompanist.pager.pagerTabIndicatorOffset
 import com.google.accompanist.pager.rememberPagerState
 import kotlinx.coroutines.launch
 
+
 @Composable
 fun WeatherMainCard(
     currentDay: MutableState<WeatherModel>,

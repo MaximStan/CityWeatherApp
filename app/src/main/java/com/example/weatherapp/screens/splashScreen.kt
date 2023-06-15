@@ -24,7 +24,6 @@ import androidx.navigation.NavController
 import com.example.weatherapp.R
 import kotlinx.coroutines.delay
 
-
 @Composable
 fun WeatherSplashScreen(navController: NavController){
 

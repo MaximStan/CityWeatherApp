@@ -76,7 +76,6 @@ class MainActivity : ComponentActivity() {
                             )
                         }
 
-
                         getWeatherData("New York", this@MainActivity, daysList, currentDay)
 
                         Column(
